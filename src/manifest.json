@@ -1,0 +1,23 @@
+{
+  "name": "Чпокомёт для гитхаба",
+  "description": "Чпокает твой PR <3",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["*://github.com/*"],
+    "js": ["jquery.js", "content.js"]
+  }],
+  "browser_action": {
+    "default_title": "Чпок этот PR, чпок!"
+  },
+  "icons": { "16": "plusone16.png",
+           "48": "plusone48.png",
+          "128": "plusone128.png" },
+  "manifest_version": 2
+}
