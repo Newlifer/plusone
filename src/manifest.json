@@ -1,6 +1,6 @@
 {
-  "name": "Чпокомёт для гитхаба",
-  "description": "Чпокает твой PR <3",
+  "name": "Chpokes your PR!",
+  "description": "Chpokey!~",
   "version": "1.0",
   "permissions": [
     "activeTab"
@@ -14,7 +14,7 @@
     "js": ["jquery.js", "content.js"]
   }],
   "browser_action": {
-    "default_title": "Чпок этот PR, чпок!"
+    "default_title": "Chpoke this, chpoke!"
   },
   "icons": { "16": "plusone16.png",
            "48": "plusone48.png",
